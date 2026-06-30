@@ -8,7 +8,7 @@ These overlays are derived from the work of [1playerinsertcoin](https://www.redd
 
 The custom, Overlays with LCD Grid for WonderSwan, Atari Lynx, Watara Supervision, and PICO-8 were developed and added by [**montyfrog**](https://github.com/montyfrog).
 
-Additionally, the GameGear and NGP overlays are custom edits based on mugwomp_93's GBC and NGPC designs.
+Additionally, the GameGear and NGP overlays are custom edits based on [mugwomp_93's](https://www.reddit.com/r/RG35XX/comments/1ai93ee/perfect_overlays_adapted_for_rg35xx/) GBC and NGPC designs.
 
 
 These overlays have been adjusted and tested to fit Miyoo Mini v1/v2/v3/Plus, Retroid Pocket 2S, and RG405M. For the Miyoo Mini/Plus, OnionUI outputs GB/GBC 2 pixels left of center. Therefore, you will need to download specific overlays in the `miyoo` folder for these systems.
