@@ -13,7 +13,7 @@ Additionally, the GameGear and NGP overlays are custom edits based on mugwomp_93
 
 These overlays have been adjusted and tested to fit Miyoo Mini v1/v2/v3/Plus, Retroid Pocket 2S, and RG405M. For the Miyoo Mini/Plus, OnionUI outputs GB/GBC 2 pixels left of center. Therefore, you will need to download specific overlays in the `miyoo` folder for these systems.
 
-The montyfrog were adjusted and tested to fit R36S
+The montyfrog overlays were adjusted and tested to fit R36S
 
 These overlays should theoretically fit other 640x480 displays with standard RetroArch build, but they've not been tested.
 
