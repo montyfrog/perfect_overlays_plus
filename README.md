@@ -39,6 +39,10 @@ These overlays should theoretically fit other 640x480 displays with standard Ret
 |-- | -- | -- |
 | ![](preview/GBA-mugwomp.png) | ![](preview/GBA-drkhrse.png) | ![](preview/GBA-raw.png) |
 
+|Perfect_NGP (montyfrog edit)| Perfect_NGP (with gb-palette-pocket.glslp) | Raw |
+|-- | -- | -- |
+| ![](preview/NGP-montyfrog.png) | ![](preview/NGP-Colorcorrect) | ![](preview/NGP-raw.png) |
+
 |Perfect_WS-Mono (montyfrog)| Raw |
 |-- | -- |
 | ![](preview/WS_montyfrog.png) | ![](preview/WS_raw.png) |
@@ -58,10 +62,6 @@ These overlays should theoretically fit other 640x480 displays with standard Ret
 |Perfect_Lynx (montyfrog)| Raw |
 |-- | -- |
 | ![](preview/Lynx-montyfrog.png) | ![](preview/Lynx-raw.png) |
-
-|Perfect_NGP (montyfrog edit)| Perfect_NGP (with gb-palette-pocket.glslp) | Raw |
-|-- | -- | -- |
-| ![](preview/NGP-montyfrog.png) | ![](preview/NPG-Colorcorrect) | ![](preview/NGP-raw.png) |
 
 ## Installation
 
