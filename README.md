@@ -55,6 +55,10 @@ These overlays should theoretically fit other 640x480 displays with standard Ret
 |-- | -- |
 | ![](preview/Pico-8-montyfrog.png) | ![](preview/Pico-8-raw.png) |
 
+|Perfect_Lynx (montyfrog)| Raw |
+|-- | -- |
+| ![](preview/Lynx-montyfrog.png) | ![](preview/Lynx-raw.png) |
+
 ## Installation
 
 Pick which version of the overlays you want, e.g. `drkhrse` or `mugwomp93`. Save both the `.png` and its `.cfg` to a `perfect_overlays` folder. For the Miyoo Mini/Plus on OnionUI, download the GB and GBC overlays specifically from the `miyoo` folder.
