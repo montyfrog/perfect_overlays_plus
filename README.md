@@ -6,6 +6,8 @@ Some familiarity with RetroArch is beneficial. I have tried my best to lay every
 
 These overlays are derived from the work of [1playerinsertcoin](https://www.reddit.com/user/1playerinsertcoin/submitted/), with bezels added from [mugwomp_93](https://www.reddit.com/r/RG35XX/comments/1ai93ee/perfect_overlays_adapted_for_rg35xx/) and [drkhrse](https://github.com/drkhrse/drkhrse_miyoo_bezels).
 
+The custom, mathematical pixel-perfect LCD grids for WonderSwan, Atari Lynx, Watara Supervision, and PICO-8 were developed and added by [**montyfrog**](https://github.com/montyfrog).
+
 These overlays have been adjusted and tested to fit Miyoo Mini v1/v2/v3/Plus, Retroid Pocket 2S, and RG405M. For the Miyoo Mini/Plus, OnionUI outputs GB/GBC 2 pixels left of center. Therefore, you will need to download specific overlays in the `miyoo` folder for these systems.
 
 These overlays should theoretically fit other 640x480 displays with standard RetroArch build, but they've not been tested.
@@ -56,6 +58,7 @@ On your device, start a game, then access RetroArch Quick Menu by your hotkey, t
 
 Next, ensure the following settings:
 * Overlay Opacity > 1.00
+(For Supervision Mantain in 0.70)
 * Auto-Scale Overlay > OFF
 * Auto-Rotate OVerlay > OFF
 
