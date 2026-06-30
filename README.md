@@ -165,6 +165,37 @@ Shaders:
 * shaders_slang > interpolation > sharp-bilinear-2x-prescale.glsl
 * Alternatively, use the sharp-shimmerless shader from [Woohyun-Kang/Sharp-Shimmerless-Shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader)
 
+### WS Mono
+
+Settings > Vídeo:
+* Integer Scale: OFF
+* Aspect Ratio: Core Provided
+* Y Position 0.00
+
+Core Options: (Beetle WonderSwan)
+* Color Palette: WS - Wonderswan
+
+Also for standard RetroArch builds, set:
+
+Shaders:
+* shaders_slang > interpolation > sharp-bilinear-2x-prescale.glsl
+* Alternatively, use the sharp-shimmerless shader from [Woohyun-Kang/Sharp-Shimmerless-Shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader)
+
+### WS Color
+
+Settings > Vídeo:
+* Integer Scale: OFF
+* Aspect Ratio: Core Provided
+* Y Position 0.00
+
+Also for standard RetroArch builds, set:
+
+Shaders:
+* shaders_slang > interpolation > sharp-bilinear-2x-prescale.glsl
+* Alternatively, use the sharp-shimmerless shader from [Woohyun-Kang/Sharp-Shimmerless-Shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader)
+**If you have a more powerful handheld (or not), you can try:**
+Prepend Preset > handheld > gba-color.glslp
+
 Credits:
 - [1playerinsertcoin](https://www.reddit.com/user/1playerinsertcoin/submitted/)
 - [mugwomp_93](https://www.reddit.com/r/RG35XX/comments/1ai93ee/perfect_overlays_adapted_for_rg35xx/)
