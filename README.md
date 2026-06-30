@@ -39,7 +39,7 @@ These overlays should theoretically fit other 640x480 displays with standard Ret
 |-- | -- | -- |
 | ![](preview/GBA-mugwomp.png) | ![](preview/GBA-drkhrse.png) | ![](preview/GBA-raw.png) |
 
-|Perfect_NGP (montyfrog edit)| Perfect_NGP (with gb-palette-pocket.glslp) | Raw |
+|Perfect_NGP (montyfrog edit (original NPC from mugwomp93))| Perfect_NGP (with gb-palette-pocket.glslp) | Raw |
 | -- | --| --|
 | ![](preview/NGP-montyfrog.png) | ![](preview/NGP-Colorcorrect.png) | ![](preview/NGP-raw.png) |
 
