@@ -47,6 +47,10 @@ These overlays should theoretically fit other 640x480 displays with standard Ret
 |-- | -- |
 | ![](preview/WSC_montyfrog.png) | ![](preview/WSC_raw.png) |
 
+|Perfect_SVision (montyfrog)| Raw |
+|-- | -- |
+| ![](preview/SVision-montyfrog.png) | ![](preview/WSC-raw.png) |
+
 ## Installation
 
 Pick which version of the overlays you want, e.g. `drkhrse` or `mugwomp93`. Save both the `.png` and its `.cfg` to a `perfect_overlays` folder. For the Miyoo Mini/Plus on OnionUI, download the GB and GBC overlays specifically from the `miyoo` folder.
