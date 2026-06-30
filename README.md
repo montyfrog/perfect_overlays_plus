@@ -193,7 +193,7 @@ Also for standard RetroArch builds, set:
 Shaders:
 * shaders_slang > interpolation > sharp-bilinear-2x-prescale.glsl
 * Alternatively, use the sharp-shimmerless shader from [Woohyun-Kang/Sharp-Shimmerless-Shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader)
-**If you have a more powerful handheld (or not), you can try:**
+* **If you have a more powerful handheld (or not), you can try:**
 Prepend Preset > handheld > gba-color.glslp
 
 Credits:
