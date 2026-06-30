@@ -49,7 +49,7 @@ These overlays should theoretically fit other 640x480 displays with standard Ret
 
 |Perfect_SVision (montyfrog)| Raw |
 |-- | -- |
-| ![](preview/SVision-montyfrog.png) | ![](preview/WSC-raw.png) |
+| ![](preview/SVision-montyfrog.png) | ![](preview/Svision-raw.png) |
 
 ## Installation
 
