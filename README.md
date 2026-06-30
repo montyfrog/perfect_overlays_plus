@@ -4,9 +4,9 @@
 
 Some familiarity with RetroArch is beneficial. I have tried my best to lay everything out step by step, but I hope you can fill in the gaps if I forget something.
 
-These overlays are derived from the work of [1playerinsertcoin](https://www.reddit.com/user/1playerinsertcoin/submitted/), with bezels added from [mugwomp_93](https://www.reddit.com/r/RG35XX/comments/1ai93ee/perfect_overlays_adapted_for_rg35xx/) and [drkhrse](https://github.com/drkhrse/drkhrse_miyoo_bezels), based on the original curation by [**ourigen**](https://github.com/ourigen/perfect_overlays).
+These overlays are derived from the work of [1playerinsertcoin](https://www.reddit.com/user/1playerinsertcoin/submitted/), with bezels added from [mugwomp_93](https://www.reddit.com/r/RG35XX/comments/1ai93ee/perfect_overlays_adapted_for_rg35xx/) and [drkhrse](https://github.com/drkhrse/drkhrse_miyoo_bezels), based on the original curation by [ourigen](https://github.com/ourigen/perfect_overlays).
 
-The custom, Overlays with LCD Grid for WonderSwan, Atari Lynx, Watara Supervision, and PICO-8 were developed and added by [**montyfrog**](https://github.com/montyfrog).
+The custom, Overlays with LCD Grid for WonderSwan, Atari Lynx, Watara Supervision, and PICO-8 were developed and added by [montyfrog](https://github.com/montyfrog).
 
 Additionally, the GameGear and NGP overlays are custom edits based on [mugwomp_93's](https://www.reddit.com/r/RG35XX/comments/1ai93ee/perfect_overlays_adapted_for_rg35xx/) GBC and NGPC designs.
 
