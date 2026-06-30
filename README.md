@@ -16,7 +16,6 @@ These overlays should theoretically fit other 640x480 displays with standard Ret
 | -- | -- | -- |
 | ![](preview/console-CRT.png) | ![](preview/console-CRT-240p.png) |  ![](preview/console-raw.png) |
 
-
 | Perfect_DMG-EX (mugwomp) | Perfect_DMG-EX (drkhrse) | Raw |
 | -- | -- | -- |
 | ![](preview/GB_DMG-mugwomp.png) | ![](preview/GB_DMG-drkhrse.png) | ![](preview/GB-raw.png) |
@@ -33,6 +32,13 @@ These overlays should theoretically fit other 640x480 displays with standard Ret
 |-- | -- | -- |
 | ![](preview/GBA-mugwomp.png) | ![](preview/GBA-drkhrse.png) | ![](preview/GBA-raw.png) |
 
+|Perfect_WS-Mono (montyfrog)| Raw |
+|-- | -- |
+| ![](preview/WS_montyfrog.png) | ![](preview/WS_raw.png) |
+
+|Perfect_WS-Color (montyfrog)| Raw |
+|-- | -- |
+| ![](preview/WSC_montyfrog.png) | ![](preview/WSC_raw.png) |
 
 ## Installation
 
