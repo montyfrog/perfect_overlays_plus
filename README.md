@@ -47,6 +47,10 @@ These overlays should theoretically fit other 640x480 displays with standard Ret
 |-- | -- | -- |
 | ![](preview/Pico-8-montyfrog.png) | ![](preview/Pico-8-shader.png) | ![](preview/Pico-8-raw.png) |
 
+|Perfect_Lynx (montyfrog)|Perfect_Lynx (gbc-color.glslp)| Raw |
+|-- | -- | -- |
+| ![](preview/Lynx-montyfrog.png) |![](preview/Lynx-shader.png) | ![](preview/Lynx-raw.png) |
+
 |Perfect_WS-Color (montyfrog)|Perfect_WS-Color (gba-color.glslp)| Raw |
 |-- | -- | -- |
 | ![](preview/WSC_montyfrog.png) |![](preview/WSC_shader.png) | ![](preview/WSC_raw.png) |
@@ -54,10 +58,6 @@ These overlays should theoretically fit other 640x480 displays with standard Ret
 |Perfect_WS-Mono (montyfrog)| Raw |
 |-- | -- |
 | ![](preview/WS_montyfrog.png) | ![](preview/WS_raw.png) |
-
-|Perfect_Lynx (montyfrog)| Raw |
-|-- | -- |
-| ![](preview/Lynx-montyfrog.png) | ![](preview/Lynx-raw.png) |
 
 |Perfect_SVision (montyfrog)| Raw |
 |-- | -- |
@@ -124,7 +124,7 @@ Settings > Video:
 Also for standard RetroArch builds, set:
 
 Shaders:
-* shaders_slang > interpolation > sharp-bilinear-2x-prescale.glsl
+* shaders_glsl > interpolation > sharp-bilinear-2x-prescale.glsl
 * Alternatively, use the sharp-shimmerless shader from [Woohyun-Kang/Sharp-Shimmerless-Shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader)
 
 ### GBC
@@ -143,7 +143,7 @@ Settings > Video:
 Also for standard RetroArch builds, set:
 
 Shaders:
-* shaders_slang > interpolation > sharp-bilinear-2x-prescale.glsl
+* shaders_glsl > interpolation > sharp-bilinear-2x-prescale.glsl
 * Alternatively, use the sharp-shimmerless shader from [Woohyun-Kang/Sharp-Shimmerless-Shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader)
 
 ### GBA
@@ -166,7 +166,7 @@ Core Options: (mGBA)
 Also for standard RetroArch builds, set:
 
 Shaders:
-* shaders_slang > interpolation > sharp-bilinear-2x-prescale.glsl
+* shaders_glsl > interpolation > sharp-bilinear-2x-prescale.glsl
 * Alternatively, use the sharp-shimmerless shader from [Woohyun-Kang/Sharp-Shimmerless-Shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader)
 
 ### WS Mono
@@ -182,7 +182,7 @@ Core Options: (Beetle WonderSwan)
 Also for standard RetroArch builds, set:
 
 Shaders:
-* shaders_slang > interpolation > sharp-bilinear-2x-prescale.glsl
+* shaders_glsl > interpolation > sharp-bilinear-2x-prescale.glsl
 * Alternatively, use the sharp-shimmerless shader from [Woohyun-Kang/Sharp-Shimmerless-Shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader)
 
 ### WS Color
@@ -195,9 +195,9 @@ Settings > Vídeo:
 Also for standard RetroArch builds, set:
 
 Shaders:
-* shaders_slang > interpolation > sharp-bilinear-2x-prescale.glsl
+* shaders_glsl > interpolation > sharp-bilinear-2x-prescale.glsl
 * Alternatively, use the sharp-shimmerless shader from [Woohyun-Kang/Sharp-Shimmerless-Shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader)
-* **If you have a more powerful handheld (or not), you can try:**
+* **If you have a more powerful handheld (or not), you can try this after the interpolation shader:**
 Prepend Preset > handheld > gba-color.glslp
 
 Credits:
