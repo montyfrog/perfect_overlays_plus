@@ -55,9 +55,9 @@ These overlays should theoretically fit other 640x480 displays with standard Ret
 |-- | -- |
 | ![](preview/SVision-montyfrog.png) | ![](preview/SVision-raw.png) |
 
-|Perfect_Pico-8 (montyfrog)| Raw |
-|-- | -- |
-| ![](preview/Pico-8-montyfrog.png) | ![](preview/Pico-8-raw.png) |
+|Perfect_Pico-8 (montyfrog)|Perfect_Pico-8 (gbc-gambette-palette)| Raw |
+|-- | -- | -- |
+| ![](preview/Pico-8-montyfrog.png) | ![](preview/Pico-8-shader.png) ![](preview/Pico-8-raw.png) |
 
 |Perfect_Lynx (montyfrog)| Raw |
 |-- | -- |
