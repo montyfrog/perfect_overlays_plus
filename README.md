@@ -43,17 +43,17 @@ These overlays should theoretically fit other 640x480 displays with standard Ret
 | --| --| --|
 | ![](preview/NGP-noshad.png) | ![](preview/NGP-correct.png) | ![](preview/NGP-raw.png) |
 
+|Perfect_Pico-8 (montyfrog)|Perfect_Pico-8 (gbc-gambatte-color.glslp)| Raw |
+|-- | -- | -- |
+| ![](preview/Pico-8-montyfrog.png) | ![](preview/Pico-8-shader.png) | ![](preview/Pico-8-raw.png) |
+
+|Perfect_WS-Color (montyfrog)|Perfect_WS-Color (gba-color.glslp)| Raw |
+|-- | -- | -- |
+| ![](preview/WSC_montyfrog.png) |![](preview/WSC_shader.png) | ![](preview/WSC_raw.png) |
+
 |Perfect_WS-Mono (montyfrog)| Raw |
 |-- | -- |
 | ![](preview/WS_montyfrog.png) | ![](preview/WS_raw.png) |
-
-|Perfect_WS-Color (montyfrog)| Raw |
-|-- | -- |
-| ![](preview/WSC_montyfrog.png) | ![](preview/WSC_raw.png) |
-
-|Perfect_Pico-8 (montyfrog)|Perfect_Pico-8 (gbc-gambette-palette)| Raw |
-|-- | -- | -- |
-| ![](preview/Pico-8-montyfrog.png) | ![](preview/Pico-8-shader.png) | ![](preview/Pico-8-raw.png) |
 
 |Perfect_Lynx (montyfrog)| Raw |
 |-- | -- |
