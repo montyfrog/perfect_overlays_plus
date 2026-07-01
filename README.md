@@ -41,7 +41,7 @@ These overlays should theoretically fit other 640x480 displays with standard Ret
 
 |Perfect_NGP (montyfrog edit from original NGPC mugwomp93)| Perfect_NGP (with NGP.glslp by montyfrog) | Raw |
 | --| --| --|
-| ![](preview/NGP-noshad.png) | ![](preview/NGP-correct.png) ![](preview/NGP-raw.png) |
+| ![](preview/NGP-noshad.png) | ![](preview/NGP-correct.png) | ![](preview/NGP-raw.png) |
 
 |Perfect_WS-Mono (montyfrog)| Raw |
 |-- | -- |
