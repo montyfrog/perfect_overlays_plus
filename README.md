@@ -8,7 +8,7 @@ These overlays are derived from the work of [1playerinsertcoin](https://www.redd
 
 The custom, Overlays with LCD Grid for WonderSwan, Atari Lynx, Watara Supervision, and PICO-8 were developed and added by [montyfrog](https://github.com/montyfrog).
 
-Additionally, the GameGear and NGP overlays are custom edits based on [mugwomp_93's](https://www.reddit.com/r/RG35XX/comments/1ai93ee/perfect_overlays_adapted_for_rg35xx/) GBC and NGPC designs.
+Additionally, the NGP overlay are custom edits based on [mugwomp_93's](https://www.reddit.com/r/RG35XX/comments/1ai93ee/perfect_overlays_adapted_for_rg35xx/) NGPC design.
 
 
 These overlays have been adjusted and tested to fit Miyoo Mini v1/v2/v3/Plus, Retroid Pocket 2S, and RG405M. For the Miyoo Mini/Plus, OnionUI outputs GB/GBC 2 pixels left of center. Therefore, you will need to download specific overlays in the `miyoo` folder for these systems.
@@ -47,6 +47,10 @@ These overlays should theoretically fit other 640x480 displays with standard Ret
 |-- | -- | -- |
 | ![](preview/Pico-8-montyfrog.png) | ![](preview/Pico-8-shader.png) | ![](preview/Pico-8-raw.png) |
 
+|Perfect_Lynx (montyfrog)|Perfect_Lynx (gbc-color.glslp)| Raw |
+|-- | -- | -- |
+| ![](preview/Lynx-montyfrog.png) | ![](preview/Lynx-shader.png) | ![](preview/Lynx-raw.png) |
+
 |Perfect_WS-Color (montyfrog)|Perfect_WS-Color (gba-color.glslp)| Raw |
 |-- | -- | -- |
 | ![](preview/WSC_montyfrog.png) |![](preview/WSC_shader.png) | ![](preview/WSC_raw.png) |
@@ -54,10 +58,6 @@ These overlays should theoretically fit other 640x480 displays with standard Ret
 |Perfect_WS-Mono (montyfrog)| Raw |
 |-- | -- |
 | ![](preview/WS_montyfrog.png) | ![](preview/WS_raw.png) |
-
-|Perfect_Lynx (montyfrog)| Raw |
-|-- | -- |
-| ![](preview/Lynx-montyfrog.png) | ![](preview/Lynx-raw.png) |
 
 |Perfect_SVision (montyfrog)| Raw |
 |-- | -- |
@@ -124,7 +124,7 @@ Settings > Video:
 Also for standard RetroArch builds, set:
 
 Shaders:
-* shaders_slang > interpolation > sharp-bilinear-2x-prescale.glsl
+* shaders_glsl > interpolation > sharp-bilinear-2x-prescale.glsl
 * Alternatively, use the sharp-shimmerless shader from [Woohyun-Kang/Sharp-Shimmerless-Shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader)
 
 ### GBC
@@ -143,7 +143,7 @@ Settings > Video:
 Also for standard RetroArch builds, set:
 
 Shaders:
-* shaders_slang > interpolation > sharp-bilinear-2x-prescale.glsl
+* shaders_glsl > interpolation > sharp-bilinear-2x-prescale.glsl
 * Alternatively, use the sharp-shimmerless shader from [Woohyun-Kang/Sharp-Shimmerless-Shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader)
 
 ### GBA
@@ -166,7 +166,7 @@ Core Options: (mGBA)
 Also for standard RetroArch builds, set:
 
 Shaders:
-* shaders_slang > interpolation > sharp-bilinear-2x-prescale.glsl
+* shaders_glsl > interpolation > sharp-bilinear-2x-prescale.glsl
 * Alternatively, use the sharp-shimmerless shader from [Woohyun-Kang/Sharp-Shimmerless-Shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader)
 
 ### WS Mono
@@ -182,7 +182,7 @@ Core Options: (Beetle WonderSwan)
 Also for standard RetroArch builds, set:
 
 Shaders:
-* shaders_slang > interpolation > sharp-bilinear-2x-prescale.glsl
+* shaders_glsl > interpolation > sharp-bilinear-2x-prescale.glsl
 * Alternatively, use the sharp-shimmerless shader from [Woohyun-Kang/Sharp-Shimmerless-Shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader)
 
 ### WS Color
@@ -195,9 +195,9 @@ Settings > Vídeo:
 Also for standard RetroArch builds, set:
 
 Shaders:
-* shaders_slang > interpolation > sharp-bilinear-2x-prescale.glsl
+* shaders_glsl > interpolation > sharp-bilinear-2x-prescale.glsl
 * Alternatively, use the sharp-shimmerless shader from [Woohyun-Kang/Sharp-Shimmerless-Shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader)
-* **If you have a more powerful handheld (or not), you can try:**
+* **If you have a more powerful handheld (or not), you can try this after the interpolation shader:**
 Prepend Preset > handheld > gba-color.glslp
 
 Credits:
