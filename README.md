@@ -43,6 +43,10 @@ These overlays should theoretically fit other 640x480 displays with standard Ret
 |-- | -- | -- |
 | ![](preview/GG-montyfrog.png) | ![](preview/GG-shader.png) | ![](preview/GG-raw.png) |
 
+|Perfect_NGPC (mugwomp93)| Perfect_NGPC (with gba-color.glslp) | Raw |
+| --| --| --|
+| ![](preview/NGPC-mugwomp.png) | ![](preview/NGPC-shader.png) | ![](preview/NGPC-raw.png) |
+
 |Perfect_NGP (montyfrog edit from original NGPC mugwomp93)| Perfect_NGP (with NGP.glslp by montyfrog) | Raw |
 | --| --| --|
 | ![](preview/NGP-noshad.png) | ![](preview/NGP-correct.png) | ![](preview/NGP-raw.png) |
