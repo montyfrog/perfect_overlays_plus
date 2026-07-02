@@ -47,7 +47,7 @@ These overlays should theoretically fit other 640x480 displays with standard Ret
 |-- | -- | -- |
 | ![](preview/Pico-8-montyfrog.png) | ![](preview/Pico-8-shader.png) | ![](preview/Pico-8-raw.png) |
 
-|Perfect_Lynx (montyfrog)|Perfect_Lynx (gbc-color.glslp)| Raw |
+|Perfect_Lynx (montyfrog)|Perfect_Lynx (LYNX.glslp by montyfrog)| Raw |
 |-- | -- | -- |
 | ![](preview/Lynx-montyfrog.png) | ![](preview/Lynx-shader.png) | ![](preview/Lynx-raw.png) |
 
