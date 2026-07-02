@@ -177,6 +177,27 @@ Shaders:
 * shaders_glsl > interpolation > sharp-bilinear-2x-prescale.glsl
 * Alternatively, use the sharp-shimmerless shader from [Woohyun-Kang/Sharp-Shimmerless-Shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader)
 
+### GG
+
+Settings > Vídeo:
+* Integer Scale: OFF
+* Aspect Ratio: Custom
+    * X Position: 0
+    * Y Position: 0
+    * Width: 533
+    * Height: 480
+
+Core Options: (Genesis Plus GX)
+* Video > LCD Ghosting Filter > ON
+* Manage Core Options > Save Content Directory Options
+
+Also for standard RetroArch builds, set:
+
+Shaders:
+* shaders_glsl > interpolation > sharp-bilinear-2x-prescale.glsl
+* Alternatively, use the sharp-shimmerless shader from [Woohyun-Kang/Sharp-Shimmerless-Shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader)
+* If you want to use the **GG.glslp** preset, place it directly in the 'shaders_glsl folder or in the main root of your handheld's RetroArch shaders directory'. <Mark>Make sure to drop it right in the root of the shaders folder, not inside any subfolders</Mark>. 
+
 ### WS Mono
 
 Settings > Vídeo:
