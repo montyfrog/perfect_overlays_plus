@@ -179,7 +179,7 @@ Shaders:
 
 ### GG
 
-Settings > Vídeo:
+Settings > Video:
 * Integer Scale: OFF
 * Aspect Ratio: Custom
     * X Position: 0
@@ -196,14 +196,73 @@ Also for standard RetroArch builds, set:
 Shaders:
 * shaders_glsl > interpolation > sharp-bilinear-2x-prescale.glsl
 * Alternatively, use the sharp-shimmerless shader from [Woohyun-Kang/Sharp-Shimmerless-Shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader)
-* If you want to use the **GG.glslp** preset, place it directly in the 'shaders_glsl folder or in the main root of your handheld's RetroArch shaders directory'. <Mark>Make sure to drop it right in the root of the shaders folder, not inside any subfolders</Mark>. 
+[!NOTE]
+* If you want to use the **GG.glslp preset**, you can find it inside its corresponding overlay folder. Just place it directly in the shaders_glsl folder or in the main root of your handheld's RetroArch shaders directory. **Make sure to drop it right in the root of the shaders folder, not inside any subfolders**.
+
+### NGPC
+
+Settings > Video:
+* Integer Scale: ON
+* Aspect Ratio: Core Provided
+
+Also for standard RetroArch builds, set:
+
+Shaders:
+* shaders_glsl > interpolation > sharp-bilinear-2x-prescale.glsl
+* Alternatively, use the sharp-shimmerless shader from [Woohyun-Kang/Sharp-Shimmerless-Shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader)
+* **If you have a more powerful handheld (or not), you can try this after the interpolation shader:**
+Prepend Preset > handheld > gba-color.glslp
+
+### NGP
+
+Settings > Video:
+* Integer Scale: ON
+* Aspect Ratio: Core Provided
+
+Also for standard RetroArch builds, set:
+
+Shaders:
+* shaders_glsl > interpolation > sharp-bilinear-2x-prescale.glsl
+* Alternatively, use the sharp-shimmerless shader from [Woohyun-Kang/Sharp-Shimmerless-Shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader)
+* If you want to use the **NGP.glslp** preset, place it directly in the <Mark>shaders_glsl folder or in the main root of your handheld's RetroArch shaders directory</Mark>. **Make sure to drop it right in the root of the shaders folder, not inside any subfolders**.
+
+
+### Pico-8
+
+Settings > Video:
+* Integer Scale: OFF
+* Aspect Ratio: Core Provided
+
+Also for standard RetroArch builds, set:
+
+Shaders:
+* shaders_glsl > interpolation > sharp-bilinear-2x-prescale.glsl
+* Alternatively, use the sharp-shimmerless shader from [Woohyun-Kang/Sharp-Shimmerless-Shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader)
+* **If you have a more powerful handheld (or not), you can try this after the interpolation shader:**
+Prepend Preset > handheld > gbc-gambatte-color.glslp
+
+### Lynx
+
+Settings > Video:
+* Integer Scale: OFF
+* Aspect Ratio: Core Provided
+
+Core Options: (Handy)
+* LCD Ghosting Filter > 4 Frames
+
+Also for standard RetroArch builds, set:
+
+Shaders:
+* shaders_glsl > interpolation > sharp-bilinear-2x-prescale.glsl
+* Alternatively, use the sharp-shimmerless shader from [Woohyun-Kang/Sharp-Shimmerless-Shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader)
+* [!NOTE]
+* If you want to use the **LYNX.glslp preset**, you can find it inside its corresponding overlay folder. Just place it directly in the shaders_glsl folder or in the main root of your handheld's RetroArch shaders directory. **Make sure to drop it right in the root of the shaders folder, not inside any subfolders**.
 
 ### WS Mono
 
-Settings > Vídeo:
+Settings > Video:
 * Integer Scale: OFF
 * Aspect Ratio: Core Provided
-* Y Position 0.00
 
 Core Options: (Beetle WonderSwan)
 * Color Palette: WS - Wonderswan
@@ -216,10 +275,9 @@ Shaders:
 
 ### WS Color
 
-Settings > Vídeo:
+Settings > Video:
 * Integer Scale: OFF
 * Aspect Ratio: Core Provided
-* Y Position 0.00
 
 Also for standard RetroArch builds, set:
 
@@ -228,6 +286,22 @@ Shaders:
 * Alternatively, use the sharp-shimmerless shader from [Woohyun-Kang/Sharp-Shimmerless-Shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader)
 * **If you have a more powerful handheld (or not), you can try this after the interpolation shader:**
 Prepend Preset > handheld > gba-color.glslp
+
+### SVision
+
+Settings > Video:
+* Integer Scale: OFF
+* Aspect Ratio: Core Provided
+
+Core Options: (Potator)
+* Internal Palette > Game Boy DMG
+* LCD Ghosting > 5 Frames
+
+Also for standard RetroArch builds, set:
+
+Shaders:
+* shaders_glsl > interpolation > sharp-bilinear-2x-prescale.glsl
+* Alternatively, use the sharp-shimmerless shader from [Woohyun-Kang/Sharp-Shimmerless-Shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader)
 
 Credits:
 - [1playerinsertcoin](https://www.reddit.com/user/1playerinsertcoin/submitted/)
