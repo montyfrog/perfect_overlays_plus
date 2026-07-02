@@ -195,8 +195,7 @@ Also for standard RetroArch builds, set:
 
 Shaders:
 * shaders_glsl > interpolation > sharp-bilinear-2x-prescale.glsl
-* Alternatively, use the sharp-shimmerless shader from [Woohyun-Kang/Sharp-Shimmerless-Shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader)
-[!NOTE]
+* Alternatively, use the sharp-shimmerless shader from [Woohyun-Kang/Sharp-Shimmerless-Shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shade
 * If you want to use the **GG.glslp preset**, you can find it inside its corresponding overlay folder. Just place it directly in the shaders_glsl folder or in the main root of your handheld's RetroArch shaders directory. **Make sure to drop it right in the root of the shaders folder, not inside any subfolders**.
 
 ### NGPC
@@ -255,7 +254,6 @@ Also for standard RetroArch builds, set:
 Shaders:
 * shaders_glsl > interpolation > sharp-bilinear-2x-prescale.glsl
 * Alternatively, use the sharp-shimmerless shader from [Woohyun-Kang/Sharp-Shimmerless-Shader](https://github.com/Woohyun-Kang/Sharp-Shimmerless-Shader)
-* [!NOTE]
 * If you want to use the **LYNX.glslp preset**, you can find it inside its corresponding overlay folder. Just place it directly in the shaders_glsl folder or in the main root of your handheld's RetroArch shaders directory. **Make sure to drop it right in the root of the shaders folder, not inside any subfolders**.
 
 ### WS Mono
